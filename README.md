@@ -24,12 +24,19 @@ README.md                       (general information about project)
 ## Required Technologies
 ---
 
+
+## References
+---
+* [Python 3.9.13](https://www.python.org/downloads/release/python-3913/)
+* [How to Make a Chatbot in Python Step By Step [Python Chatterbox Guide]](https://www.upgrad.com/blog/how-to-make-chatbot-in-python/)
+* [sugaroid-chatterBot](https://openbase.com/python/sugaroid-chatterBot)
+* [sqlalchemy.exc.ArgumentError when creating chatbot](https://stackoverflow.com/questions/67811041/sqlalchemy-exc-argumenterror-when-creating-chatbot)
+* [OSError: [E050] Can't find model 'en'](https://stackoverflow.com/questions/58057021/oserror-e050-cant-find-model-en)
+* [Python Do While – Loop Example](https://www.freecodecamp.org/news/python-do-while-loop-example/)
+
 ## Author
 ---
 *  Mason Schenk:    sch19013@byui.edu
-
-## References
-* [sqlalchemy.exc.ArgumentError when creating chatbot](https://stackoverflow.com/questions/67811041/sqlalchemy-exc-argumenterror-when-creating-chatbot)
 
 
 want to run

@@ -21,9 +21,10 @@ After this, you should be able to make a chatbot up to the specifications that y
 ---
 The project files and folders are organized as follows:
 ```
-chatbot.py                      (file where the chatbot will reside)
-README.md                       (general information about project)
-.gitignore                      (ignore file for any files that don't need to be pushed to GitHub)
+chatbot                             (project folder)
++-- .gitignore                      (ignore file for any files that don't need to be pushed to GitHub)
++-- README.md                       (general information about project)
++-- chatbot.py                      (file where the chatbot will reside)
 ```
 
 ## Required Technologies

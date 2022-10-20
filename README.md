@@ -3,27 +3,31 @@
 
 ## Getting Started
 ---
+You are going to want to go the first reference link of this readme and download Python 3.9.13. You may not need to do this, but for my configuration, it worked. After downloading Python 3.9.13, you are going to want to run these commands in the terminal
+```{python}
+pip install sugaroid-chatterbot
+pip install sugaroid-chatterbot-corpus
+python3 -m spacy download en_core_web_sm
+pip install Mako==1.1.2
+pip install SQLAlchemy==1.3.6
+```
+after this, you should be able to make a chatbot up to the specifications that you want!
 
 ## Project Structure
 ---
 The project files and folders are organized as follows:
 ```
-Final Project                   (project root folder)
-+-- inserting-data              (the main folder that holds the CSV data files, the Python script to add those to the database, and the database)    
-  +-- game.csv                  (holds the games we chose with a description, rating, publisher, developer, genre, and special category all listed)
-  +-- genre.csv                 (holds the description and the genre of the games)
-  +-- load_data_to_steam_db.py  (the Python script that adds all of the information from the CSV files to the database)
-  +-- review.csv                (holds game name, user name, if the review is verfied, review description, and if the user recommends the game)
-  +-- special_category.csv      (holds the special category and a description)
-  +-- steamschema.mwb           (the database, which once the script is ran, holds all the data in tables created in the ERD in the MySQL file)
-  +-- user.csv                  (holds name, email, password, and display name)
-  +-- user_has_game.csv         (holds user name and game name)
+chatbot.py                      (file where the chatbot will reside)
 README.md                       (general information about project)
+.gitignore                      (ignore file for any files that don't need to be pushed to GitHub)
 ```
 
 ## Required Technologies
 ---
-
+* An IDE like VSCode
+* Python 3.9.13
+* Chatterbot
+* Chatterbot-Corpus
 
 ## References
 ---
@@ -37,12 +41,3 @@ README.md                       (general information about project)
 ## Author
 ---
 *  Mason Schenk:    sch19013@byui.edu
-
-
-want to run
-```{python}
-pip install sugaroid-chatterbot
-python3 -m spacy download en_core_web_sm
-pip install Mako==1.1.2
-pip install SQLAlchemy==1.3.6
-```

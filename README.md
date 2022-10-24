@@ -5,6 +5,8 @@ Included in the Python file of this project titled 'chatbot.py', you will find t
 
 Look to the links in [References](#References) titled Chatterbot Documenation and Chatterbot-Corpus Libraries to learn how to train your bot.
 
+Feel free to fork this repository and use it as a starting place for your very own chatbot. 
+
 ## Getting Started
 ---
 You are going to want to go the first link in [References](#References) and download Python 3.9.13. You may not need to do this, but for my configuration, it worked. After downloading Python 3.9.13, you are going to want to run these commands in the terminal
